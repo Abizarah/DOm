@@ -1,0 +1,26 @@
+/* .bar {
+    position: absolute;
+    content: 80;
+    right: 0;
+    top: -28px;
+    color: bisque;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: black;
+    padding: 1px 8px;
+    border-radius: 3x;
+
+
+} */
+
+.first {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.nama {
+    float: left;
+    align-content: center;
+    background-color: mediumaquamarine
+}

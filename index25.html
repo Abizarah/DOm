@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+        <style>
+        .bar {
+            position: absolute;
+            content: 80;
+            right: 0;
+            top: -28px;
+            color: bisque;
+            font-size: 12px;
+            font-weight: 500;
+            background-color: black;
+            padding: 1px 8px;
+            border-radius: 3x;
+        }
+        body{
+            background-image: url('image1.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            /* background-size: cover; */
+            background-position: center center;
+        }
+        .first  {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        
+        p{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .nama {
+            float: left;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0px;
+            background-color: aqua;
+        }
+        .second {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .btn-1{
+            background: aqua;
+            font-size: 20px;
+            border: none;
+            border-radius: 5px;
+            width: 170px;
+            height: 50px;
+            margin-right: 10px;
+        }
+        .btn-2{
+            background: aqua;
+            font-size: 20px;
+            border: none;
+            border-radius: 5px;
+            width: 170px;
+            height:50px;
+        }
+        /* .jumlahBahasa{
+            float: left;
+            height: 2;
+            content: '80%';
+            width: 80%; */
+            /* padding: 12px 0; */
+        /* } */
+        
+        h1{
+            font-size: 70px;
+            color: aqua;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        }
+        #paf_tengah{
+            font-weight: bold;
+            font-size: 25px;
+            color: #fff;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .close {
+            cursor: pointer;
+        }
+        button{
+            cursor: pointer;
+            
+        }
+        button:hover{
+        background-color: rgb(8, 192, 192)
+        }
+        button:active {
+        background-color: rgb(9, 117, 117);
+        box-shadow: 0 3px  ;
+        transform: translateY(4px);
+        }
+        .class2 {
+            /* width: 700px; */
+            /* position: absolute; */
+            text-align: end;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .class1{
+            font-family: sans-serif;
+            width: 300px; 
+            transform: translateY(30px);
+        }
+        .subjudul{
+            font-size: 25px;
+            color: aquamarine;
+        }
+        </style>
+        
+    </head>
+    <body>
+        <div class="first">
+            <h1 class="judul">World Countries Data</h1>
+        </div>
+        <p id="paf_tengah">Currently, we have 250 countries</p>
+        <div class="second">
+            <div class="button">
+                <button class="btn-1">Population</button>
+                <!-- <span class="close">x</span> -->
+                <button class="btn-2">Languages</button>
+                <!-- <span class="close">x</span> -->
+            </div>
+        </div>
+        <script src="./scripts/main.js"></script>
+
+    </body>
+</html>
